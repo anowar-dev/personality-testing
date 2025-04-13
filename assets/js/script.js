@@ -314,7 +314,7 @@ function showResults() {
       console.log(data);
       localStorage.setItem("quizAnswers", JSON.stringify(answers));
       localStorage.setItem("quizResult", JSON.stringify(data));
-      window.location.href = "/final.html";
+      window.location.href = "final.html";
     })
     .catch(error => console.error('Error:', error));
   console.log('Fetch function working')
@@ -357,10 +357,12 @@ function resetTranslation() {
 function resetTranslation() {
   // Clear the translate cookie (which stores language preference)
   document.cookie = 'googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC';
+  document.cookie = 'googtrans=;path=/;domain=' + window.location.hostname + ';expires=Thu, 01 Jan 1970 00:00:00 UTC';
 
   // Force reload without translation
   window.location.reload();
 }
+
 
 
 
