@@ -17,7 +17,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 12rem);
+    min-height: calc(100vh - 15rem);
     background: #FFFFFF;
 }
 .title{
@@ -413,7 +413,7 @@ body{
 }
 .introduction{
     max-width: 90vw;
-    margin: 2.5rem auto -5rem auto;
+    margin: 2.5rem auto -2.5rem auto;
 }
 .introData{
     color: #334155;
@@ -551,5 +551,14 @@ div#goog-gt-tt {
 @media (max-width: 369px) {
     .finalSertificateInner{
         padding: 2rem 1rem;
+    }
+}
+@media (max-height: 600px) {
+    .homeParent{
+        min-height: unset;
+        margin: 2.5rem auto;
+    }
+    .introduction{
+        margin-bottom: 2rem;
     }
 }
