@@ -24,122 +24,122 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const questions = [
   {
-    title: "1.	Nyder du at være spontan og åben for nye muligheder? (P)",
+    title: "1.	Nyder du at være spontan og åben for nye muligheder?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "2.	Foretrækker du at tilbringe weekender stille hjemme fremfor at gå ud? (I)",
+    title: "2.	Foretrækker du at tilbringe weekender stille hjemme fremfor at gå ud?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "3.	Føler du dig mere energisk, når du er omgivet af mennesker? (E)",
+    title: "3.	Føler du dig mere energisk, når du er omgivet af mennesker?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "4.	Sætter og overholder du nemt deadlines? (J)",
+    title: "4.	Sætter og overholder du nemt deadlines?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "5.	Bliver dine beslutninger ofte påvirket af, hvordan de vil påvirke andre følelsesmæssigt? (F)",
+    title: "5.	Bliver dine beslutninger ofte påvirket af, hvordan de vil påvirke andre følelsesmæssigt?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "6.	Synes du, det er spændende at finde budskaber eller symbolik bag en historie? (N)",
+    title: "6.	Synes du, det er spændende at finde budskaber eller symbolik bag en historie?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "7.	Stræber du efter at opretholde harmoni i gruppeindstillinger, selvom det betyder kompromiser? (F)",
+    title: "7.	Stræber du efter at opretholde harmoni i gruppeindstillinger, selvom det betyder kompromiser?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "8.	Når en ven er ked af det, er dit første instinkt at tilbyde følelsesmæssig støtte fremfor løsninger? (F)",
+    title: "8.	Når en ven er ked af det, er dit første instinkt at tilbyde følelsesmæssig støtte fremfor løsninger?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "9.	I argumenter fokuserer du mere på at være rationel end på folks følelser? (T)",
+    title: "9.	I argumenter fokuserer du mere på at være rationel end på folks følelser?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "10.	Når du lærer noget nyt, foretrækker du praktisk erfaring fremfor teori? (S)",
+    title: "10.	Når du lærer noget nyt, foretrækker du praktisk erfaring fremfor teori?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "11.	Tænker du ofte over, hvordan handlinger i dag vil påvirke fremtiden? (N)",
+    title: "11.	Tænker du ofte over, hvordan handlinger i dag vil påvirke fremtiden?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "12.	Er du komfortabel med at tilpasse dig nye situationer, mens de sker? (P)",
+    title: "12.	Er du komfortabel med at tilpasse dig nye situationer, mens de sker?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "13.	Foretrækker du at udforske forskellige muligheder, før du træffer en beslutning? (P)",
+    title: "13.	Foretrækker du at udforske forskellige muligheder, før du træffer en beslutning?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "14.	Finder du det naturligt at starte samtaler med andre mennesker i sociale sammenhænge? (E)",
+    title: "14.	Finder du det naturligt at starte samtaler med andre mennesker i sociale sammenhænge?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "15.	Når du står over for et problem, foretrækker du så at diskutere det med andre? (E)",
+    title: "15.	Når du står over for et problem, foretrækker du så at diskutere det med andre?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "16.	Når du træffer beslutninger, prioriterer du logik fremfor personlige overvejelser? (T)",
+    title: "16.	Når du træffer beslutninger, prioriterer du logik fremfor personlige overvejelser?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "17.	Finder du ofte det at være alene mere forfriskende end sociale sammenkomster? (I)",
+    title: "17.	Finder du ofte det at være alene mere forfriskende end sociale sammenkomster?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "18.	Foretrækker du at have en klar plan og ikke bryder dig om uventede ændringer? (J)",
+    title: "18.	Foretrækker du at have en klar plan og ikke bryder dig om uventede ændringer?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "19.	Finder du tilfredsstillelse i at færdiggøre opgaver og træffe endelige beslutninger? (J)",
+    title: "19.	Finder du tilfredsstillelse i at færdiggøre opgaver og træffe endelige beslutninger?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "20.	Har du en tendens til at bearbejde dine tanker internt, før du taler? (I)",
+    title: "20.	Har du en tendens til at bearbejde dine tanker internt, før du taler?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "21.	Er du mere interesseret i at tænke over idéer og hvad der kunne ske i fremtiden? (N)",
+    title: "21.	Er du mere interesseret i at tænke over idéer og hvad der kunne ske i fremtiden?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "22.	Når du planlægger en ferie, foretrækker du så at have en detaljeret plan? (S)",
+    title: "22.	Når du planlægger en ferie, foretrækker du så at have en detaljeret plan?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "23.	Lægger du vægt på objektive kriterier, når du vurderer en situation? (T)",
+    title: "23.	Lægger du vægt på objektive kriterier, når du vurderer en situation?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   },
   {
-    title: "24.	Lægger du mere mærke til små detaljer og fakta omkring dig? (S)",
+    title: "24.	Lægger du mere mærke til små detaljer og fakta omkring dig?",
     description: "Enhver beskrivelse relateret til spørgsmålene.",
     options: ["Helt enig", "Delvist enig", "Neutral / Usikker", "Delvist uenig", "Helt uenig"],
   }
@@ -304,11 +304,12 @@ function resetTranslation() {
 
 function resetTranslation() {
   // Clear the translate cookie (which stores language preference)
-  document.cookie = 'googtrans=; path=/; domain=' + location.hostname + '; expires=Thu, 01 Jan 1970 00:00:00 UTC';
+  document.cookie = 'googtrans=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC';
 
   // Force reload without translation
   window.location.reload();
 }
+
 
 
 // placehohder widht mesurement
